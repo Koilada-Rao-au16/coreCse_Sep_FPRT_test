@@ -1,0 +1,53 @@
+ 3. What is NAT and ARP ? Describe briefly
+
+ Answer:  
+
+ Network Address Translation (NAT):
+     
+     To access the Internet, one public IP address is needed, but we can use a private IP address in our private network.
+The idea of NAT is to allow multiple devices to access the Internet through a single public address. 
+To achieve this, the translation of private IP address to a public IP address is required. 
+Network Address Translation (NAT) is a process in which one or more local IP address is translated into one or more Global IP address
+and vice versa in order to provide Internet access to the local hosts. Also, it does the translation of port numbers i.e. 
+masks the port number of the host with another port number, in the packet that will be routed to the destination.
+It then makes the corresponding entries of IP address and port number in the NAT table. NAT generally operates on router or firewall.
+
+Network Address Translation (NAT) working –
+
+    Generally, the border router is configured for NAT i.e the router which has one interface in local (inside) network and one interface in the global (outside) network.
+When a packet traverse outside the local (inside) network, then NAT converts that local (private) IP address to a global (public) IP address.
+When a packet enters the local network, the global (public) IP address is converted to a local (private) IP address.
+
+Network Address Translation (NAT) Types –
+There are 3 ways to configure NAT:
+
+Static NAT – In this, a single unregistered (Private) IP address is mapped with a legally registered (Public) IP address i.e one-to-one mapping between local and global address. 
+
+Dynamic NAT – In this type of NAT, an unregistered IP address is translated into a registered (Public) IP address from a pool of public IP address. If the IP address of pool is not free,
+then the packet will be dropped as an only a fixed number of private IP address can be translated to public addresses.
+
+Port Address Translation (PAT) – This is also known as NAT overload.
+
+
+
+Address Resolution Protocol (ARP):
+
+        Most of the computer programs/applications use logical address (IP address) to send/receive messages, 
+however the actual communication happens over the physical address (MAC address) i.e from layer 2 of OSI model.
+So our mission is to get the destination MAC address which helps in communicating with other devices. 
+This is where ARP comes into the picture, its functionality is to translate IP address to physical address. 
+
+ARP Cache: After resolving MAC address, the ARP sends it to the source where it stores in a table for future reference. 
+The subsequent communications can use the MAC address from the table
+
+ARP Cache Timeout: It indicates the time for which the MAC address in the ARP cache can reside
+
+ARP request: 
+
+This is nothing but broadcasting a packet over the network to validate whether we came across destination MAC address or not.
+
+The physical address of the sender.
+The IP address of the sender.
+The physical address of the receiver is FF:FF:FF:FF:FF:FF or 1’s.
+The IP address of the receiver
+ARP response/reply: It is the MAC address response that the source receives from the destination which aids in further communication of the data. 

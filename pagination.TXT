@@ -1,0 +1,45 @@
+5.Describe pagination in brief.
+
+Answer:
+
+Pagination is the process of separating print or digital content into discrete pages.
+
+For print documents and some online content, pagination also refers to the automated process of adding consecutive numbers to identify the sequential order of pages. 
+
+Some types of website content benefit from being broken into separate pages to make them more user-friendly, such as search engine results pages (SERP), blogs and discussion forums.
+
+Online articles are sometimes paginated to break up content.
+ 
+There is some justification to organizing long articles into multiple pages to aid the reader. 
+
+However, even relatively brief articles are often paginated so that a page consists of a single paragraph and a visitor might have to click through ten or more pages to read the complete text. 
+
+The purpose is to increase page views and, as a result, ad impressions -- the number of times that a website visitor sees a given ad. However, 
+
+because most readers don't complete multi-page articles, the presentation of multiple short pages rather than a single long one may actually result in fewer ad impressions.
+
+Pagination is the process of dividing a large data set into several pages (or chunks). It also allows navigation between several pages. This process is applied in search engines and yields many advantages for the user (i.e., the website visitor):
+
+The user isn’t overwhelmed by the amount of unordered results (or data) on a single page, as only the most relevant chunk of items are displayed first.
+
+Relevancy can be set according to the user’s need (e.g., price, popularity, date, etc.).
+
+Information like the total number of pages, the current page, the highlighted history of previously visited pages, etc. contributes to the user’s awareness. Consequently, the user will know where to go next, and won’t waste time visiting the same page again and again. Pagination also lowers the load on short-term memory, which is a trait of a good user interface.
+
+Quick controls (e.g., buttons to go to the previous, next, first, and ​last page, etc.) save a lot of time.
+
+Rules for good pagination:
+
+1. Provide large clickable areas
+
+2. Don't use underlines
+
+3. Identify the current page
+
+4. Space out page links
+
+5. Provide Previous and Next links
+
+6. Use First and Last links (where applicable)
+
+7. Put First and Last links on the outside
